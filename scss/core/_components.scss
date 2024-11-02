@@ -1,0 +1,78 @@
+// Gap
+.gap-y2 {
+    gap: 3em 0;
+}
+
+// Background
+.bgOne {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+// Main Header
+.mainHeader {
+    .logo {
+        display: block;
+        text-align: center;
+
+        img {
+            height: 80px;
+        }
+    }
+    .title {
+        color: $whiteClr;
+        background-color: $primaryClr;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+
+// Table
+.tableOne {
+    tr {
+        vertical-align: middle;
+        border-color: $blackClr;
+    }
+
+    th,
+    td {
+        border-color: $blackClr;
+        text-align: center;
+        padding: 4px 10px;
+        text-transform: capitalize;
+        min-width: 150px;
+    }
+
+    thead {
+        th {
+            color: $whiteClr;
+            background-color: $primaryClr;
+            font-weight: 700;
+
+            &.titleBig {
+                font-size: 1.2em;
+            }
+        }
+        td {
+            font-weight: 600;
+            background-color: $secondaryClr;
+        }
+    }
+
+    tbody {
+        th {
+            color: $whiteClr;
+            background-color: $primaryClr;
+            font-weight: 700;
+        }
+    }
+
+    tfoot {
+        td {
+            font-weight: 700;
+            background-color: darken($secondaryClr, 5%);
+        }
+    }
+}

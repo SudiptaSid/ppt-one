@@ -1,0 +1,15 @@
+.linkListHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+
+    li {
+        a {
+            font-weight: 600;
+
+            &:hover {
+            }
+        }
+    }
+}
